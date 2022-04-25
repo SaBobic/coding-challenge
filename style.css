@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  font-family: Arial;
+}
+
+.container{
+  width: 1200px;
+  height: 820px;
+  background: rgba(0, 0, 0, .5);
+  margin: 30px auto;
+  border-radius: 2%;
+}
+
+.corpo{
+  padding:100px;
+}
+
+.logo{
+  height: 110px;
+}
+
+header{
+  color: #00dd00;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav{
+  background-color: #00dd00;
+  text-align: center;
+  padding: 10px 0
+}
+
+.elenco{
+  color: white;
+}
+
+section{
+  margin-top: 25px;
+}
+
+section > h2{
+  display: inline-block;
+}
+
+section > span{
+  display: block;
+  margin-top: 8px;
+}
+
+.dettagli:before{
+  content:"\2194  ";
+}
+
+.progresso{
+  margin-top: 5px;
+  height:30px;
+  border-radius: 4px;
+}
+
+.gino{
+  background-color: #f5b453;
+  width:350px;
+}
+
+.mike{
+  background-color: #1ec31e;
+  width:600px;
+}
+
+.fede{
+  background-color: #be4141;
+  width:150px;
+}
